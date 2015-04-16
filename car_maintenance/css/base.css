@@ -1,0 +1,45 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;vertical-align:baseline}ol,ul{list-style:none}input,textarea,select{padding:0;margin:0}
+img{border:0;width:100%;display:block}
+.clear:before,
+.clear:after{content:"";display:table}
+.clear:after{clear:both;overflow:hidden}
+i,em{font-style:normal}
+a{text-decoration:none}
+.none{display:none}
+.fl{ float:left; }
+.fr{ float:right; }
+/**全局样式, 微软雅黑**/
+html {height: 100%; font-size:62.5%; }
+body{ font-family:"\5FAE\8F6F\96C5\9ED1"; background-color:#FBF097;height:100%; text-align: center; color:#222222; padding-bottom:3rem; }
+
+.bg1{ background-color:#FCB106;}
+.bg2{ background-color:#FCA906;}
+.bg3{ background-color:#FCAE06;}
+.grab-box{ width:85%; min-height:13rem; margin:1rem auto; overflow: hidden; padding:0.2rem;
+    border-radius: 1rem; background-color:#FFC90B;}
+.grab-box .box-dot{ width:100%; padding: 1.5rem 0;
+    background: url('../images/dot_bg.png') no-repeat;background-size:100% 100%; -webkit-background-size:100% 100%;}
+.grab-box .box-dot .content{ width:88%; min-height:10rem; margin:0 auto;
+    border-radius:0.8rem; overflow: hidden; border:1px solid #F08D00; }
+.btn-grab{ width:60%; margin:4rem auto; }
+.btn-grab-gray{ width:60%; margin:0 auto; }
+.content ul{ padding:0.5rem 0; }
+.bg3 ul{ padding:1.2rem 0 0.5rem;}
+.content ul li{ line-height: 2rem; color:#FCFC79; font-size:1.4rem;}
+.content .font-y{ color:#BA4C01; }
+.content b{ font-size:3.6rem;}
+.content .time{ font-size:2rem; padding:0.5rem 0; text-shadow: 1px 1px 3px #F08D00;}
+.content .next-time{text-shadow: 1px 1px 3px #F08D00;}
+.content .free-fz{font-size:2.5rem; line-height: 2.8rem;}
+.content .g-fz{ font-size:1.8rem; color:#FFE900;}
+.content .over{ font-size:1.5rem; color:#BA4C01; margin:4rem auto; white-space: nowrap;}
+/*活动规则*/
+.rule{ width:92%; background: #fff; border-radius: 1rem; margin:3rem auto; position: relative;}
+.rule header{ width:40%; line-height:3rem; font-size:1.8rem; color:#fff; background-color:#DD3A4B; border-radius:0.6rem;
+    position:absolute; top:-2rem; left:30%; }
+.rule table{ text-align:left; padding:1.5rem 1rem; font-size: 1.4rem; color: #DD3A4B;}
+.rule table td{ padding:0.5rem 0; line-height: 1.8rem;}
+.rule table td dd{ padding-left:1rem; }
+
+.line{ width:100%; height:2rem;}
+
